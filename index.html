@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Fx-Weather</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Loading third party fonts -->
+        <link rel="stylesheet" href="css/all.min.css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="images/logo1.png">
+	</head>
+	<body>
+
+		<div class="bg-checkbox">
+			<input type="checkbox" class="checkbox" id="chk"/>
+			<label class="label" for="chk">
+				<i class="fas fa-moon"></i>
+				<i class="fas fa-sun"></i>
+				<div class="ball"></div>
+			</label>
+		</div>
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-type">
+							<h1 class="site-title">Weather</h1>
+							<small class="site-description">tagline goes here</small>
+						</div>
+					</a>
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fas fa-cloud"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<!-- <li class="menu-item"><a href="#">News</a></li>
+							<li class="menu-item"><a href="#">Live cameras</a></li>
+							<li class="menu-item"><a href="#">Photos</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li> -->
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+					<div class="mobile-navigation"></div>
+				</div>
+			</div> <!-- .site-header -->
+
+			<div class="hero" data-bg-image="images/banner.png">
+				<div class="container">
+					<form  class="find-location">
+						<input type="text" placeholder="Find your location..." id="search">
+						<input type="button" value="Find" id="submit">
+					</form>
+
+				</div>
+			</div>
+			<div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container" id="forecast">
+						
+						
+					
+					</div>
+				</div>
+			</div>
+	
+			
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email to subscribe...">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="https://www.facebook.com/profile.php?id=100006540690109"target="_blank"><i class="fab fa-facebook"></i></a>
+								<a href="https://www.linkedin.com/in/ahmed-gamal-199a161a4"target="_blank"><i class="fab fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/ahmed_gamal710/"target="_blank"><i class="fab fa-instagram"></i></a></div>
+					</div>
+					</div>
+					<p class="colophon">Created by Jimmy</p>
+				</div>
+			</footer> <!-- .site-footer -->
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
